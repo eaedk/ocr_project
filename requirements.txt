@@ -1,0 +1,8 @@
+pytest
+gradio
+black
+numpy
+tensorflow
+pytesseract
+opencv-python
+python-resize-image

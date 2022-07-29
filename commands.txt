@@ -1,0 +1,40 @@
+# Clone this repo
+git clone https://github.com/eaedk/friendly_web_interface_for_ML_models.git
+
+# Setup virtual environment
+
+## One-line Setup
+### Windows
+python3 -m venv venv; venv\Scripts\activate; python -m pip install --upgrade pip; python -m pip install -qr requirements.txt  
+### Linux
+python3 -m venv venv; source venv/bin/activate; python -m pip install --upgrade pip; python -m pip install -qr requirements.txt  
+
+## ManualSetup
+### Create the venv
+python3 -m venv venv
+
+### Activate the venv
+source venv/bin/activate        #this line will work in linux
+venv\Scripts\activate           # this it the code  for windows.
+
+### Deactivate the venv # to deactivate the venv later
+deactivate
+
+
+### Install required packages
+python -m pip install --upgrade pip               # update pip first before to use it, to avoid warning
+python -m pip install -qr requirements.txt
+
+
+# Normal app execution
+## Palindrome
+python assignments/palindrome/main.py
+
+
+# Run tests
+python -m pytest -v
+
+python -m pytest tests/palindrome/test_solution_with_valid_inputs.py -v
+
+# Freeze packages' version
+python -m pip freeze > requirements_versioned.txt
