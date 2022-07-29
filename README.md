@@ -94,6 +94,7 @@ Feel free to make a PR or report an issue 😃.
 Oh, one more thing, please do not forget to put a description when you make your PR 🙂.
 
 ## Author
+
 - [Louis Xavier N'GUESSAN](https://www.linkedin.com/in/n-guessan-louis-xavier-999619186/)
 ![](https://img.shields.io/github/followers/Xlouis?label=Follow%20Louis%20on%20Gitlab&logo=gitlab&style=social)
 <a target="_blank" href="https://www.linkedin.com/in/n-guessan-louis-xavier-999619186/">
