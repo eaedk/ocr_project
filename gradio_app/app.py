@@ -6,8 +6,6 @@ import os
 #     PerceiverForImageClassificationConvProcessing,
 # )
 
-# import requests
-# from PIL import Image
 DATADIR = os.path.relpath(
     os.path.join(os.path.dirname(os.path.realpath(__file__)), "data")
 )
@@ -62,7 +60,7 @@ with demo:
         inputs=inp,
         outputs=out,
         fn=inference,
-        # cache_examples=True,
+        cache_examples=True,
     )
 
     button.click(fn=inference, inputs=inp, outputs=out)
