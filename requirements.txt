@@ -1,7 +1,8 @@
-pytest
-gradio
 black
 numpy
+pytest
+gradio
+pdf2image
 tensorflow
 pytesseract
 opencv-python
