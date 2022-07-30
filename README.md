@@ -49,11 +49,11 @@ For manual installation, you need to have [`Python3`](https://www.python.org/) o
 
 - Windows :
         
-      git clone https://github.com/eaedk/ocr_project.git; cd autograding_python_assignments; python3 -m venv venv; venv\Scripts\activate; python -m pip install --upgrade pip; python -m pip install -r requirements.txt
+      git clone https://github.com/eaedk/ocr_project.git; cd ocr_project; python3 -m venv venv; venv\Scripts\activate; python -m pip install --upgrade pip; python -m pip install -r requirements.txt
 
 - Linux :
         
-      git clone https://github.com/eaedk/ocr_project.git; cd autograding_python_assignments; python3 -m venv venv; source venv/bin/activate; python -m pip install --upgrade pip; python -m pip install -r requirements.txt
+      git clone https://github.com/eaedk/ocr_project.git; cd ocr_project; python3 -m venv venv; source venv/bin/activate; python -m pip install --upgrade pip; python -m pip install -r requirements.txt
 
 ## Run the app
 To run the AI-based OCR app, made with [Gradio](), execute the following command, being at repository root :
