@@ -26,10 +26,11 @@ python -m pip install --upgrade pip               # update pip first before to u
 python -m pip install -qr requirements.txt
 
 
-# Normal app execution
-## Palindrome
-python assignments/palindrome/main.py
-
+# App execution
+## Gradio normal
+python gradio_app/app.py
+## Gradio dev (with hot reload)
+gradio gradio_app/app.py
 
 # Run tests
 python -m pytest -v
