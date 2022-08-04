@@ -39,3 +39,7 @@ python -m pytest tests/palindrome/test_solution_with_valid_inputs.py -v
 
 # Freeze packages' version
 python -m pip freeze > requirements_versioned.txt
+
+# TF for macos
+python -m pip install tensorflow-macos==2.7.0
+python -m pip install tensorflow-metal
